@@ -1,5 +1,4 @@
 import socket
-import msvcrt
 import select
 import errno
 import random
@@ -71,7 +70,7 @@ while True:
              # Wait for user to input a message
             while True:
                 try:
-                    print("here")
+                    
                     #if keyboard.is_pressed('e'):
                     #    sys.stdout.flush()
                     messa = input(f'{my_username} > ')
